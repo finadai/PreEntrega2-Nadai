@@ -1,7 +1,7 @@
-@import 'media-queries';
-@import 'directions';
-@import 'contents';
-@import 'displays';
-@import 'colors';
-@import 'aligns';
-@import 'structure';
+@import './abstracts/colors';
+@import './abstracts/aligns';
+@import './abstracts/contents';
+@import './abstracts/directions';
+@import './abstracts/displays';
+@import './abstracts/media-queries';
+@import './structure';

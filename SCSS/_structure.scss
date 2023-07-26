@@ -525,3 +525,45 @@ h3{
 .navbar-nav{
     color: $navbar-color;
 }
+
+
+.menu-container {
+    margin-top: 20px; 
+    display: $flexible;
+    justify-content: center;
+  }
+  
+  .menu {
+    background-color: green;
+    width: 500px; /* Ancho del menú vertical */
+    padding: 10px;
+    height: 600px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 5px;
+  }
+  
+  .menu a {
+    display: $this-is-a-block;
+    color: $text-color;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 40px;
+  }
+  
+  .submenu ul {
+    display: $there-is-nothing;
+    background-color: $background-color;
+    padding: 5px;
+  }
+  
+  .submenu:hover ul {
+    display: $this-is-a-block;
+  }
