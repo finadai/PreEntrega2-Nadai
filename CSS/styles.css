@@ -182,9 +182,9 @@ footer {
 }
 
 .next-image-container img {
-  width: 500px;
-  max-height: 250px;
-  object-fit: cover;
+  width: 1000px;
+  height: 1000px;
+  transform: translate(495px,0);
 }
 
 .next-image-description {

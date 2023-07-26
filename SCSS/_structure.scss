@@ -185,9 +185,9 @@ footer{
     color: $text-color;
 }
 
-.next-image-container img {
+.next-image-container  {
     width: 500px; 
-    max-height: 250px;
+    height: 1000px;
     object-fit: cover;
 }
 
