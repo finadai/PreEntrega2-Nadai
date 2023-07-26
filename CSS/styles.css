@@ -328,6 +328,17 @@ h3 {
     height: 200px;
    transform: translate(100px,0);
   }
+
+  .map-description{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 200px;
+  }
+  iframe{
+    height: 300px;
+    width: 300px;
+  }
 }
 @media (min-width: 820px) {
   header {
@@ -393,6 +404,17 @@ h3 {
     width: 200px;
     height: 200px;
     object-fit: cover;
+  }
+
+  .map-description{
+    line-height: 1.5;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 200px;
+  }
+  iframe{
+    height: 300px;
+    width: 300px;
   }
 }
 @media (min-width: 700px) {
@@ -471,5 +493,7 @@ h3 {
 .navbar-nav {
   color: white;
 }
+
+
 
 /*# sourceMappingURL=styles.css.map */
