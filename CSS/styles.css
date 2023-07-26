@@ -257,6 +257,12 @@ h3 {
     text-align: center;
     font-size: 25px;
   }
+
+  .next-image-container img {
+    width: 100px;
+    height: 100px;
+    
+  }
 }
 @media (max-width: 767px) {
   header {
@@ -315,6 +321,12 @@ h3 {
   }
   h1, h2 {
     font-size: 15px;
+  }
+
+  .next-image-container img {
+    width: 200px;
+    height: 200px;
+   transform: translate(100px,0);
   }
 }
 @media (min-width: 820px) {
@@ -375,6 +387,12 @@ h3 {
   }
   .new-image-grid img h1, .new-image-grid img h2 {
     font-size: 20px;
+  }
+
+  .next-image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
   }
 }
 @media (min-width: 700px) {
@@ -437,6 +455,12 @@ h3 {
   }
   .new-image-grid img h1, .new-image-grid img h2 {
     font-size: 20px;
+  }
+
+  .next-image-container img {
+    width: 500px;
+    height: 500px;
+    transform: translate(-100px,0);
   }
 }
 .container-fluid {

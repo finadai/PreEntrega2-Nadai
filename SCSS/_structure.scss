@@ -266,6 +266,10 @@ h3{
       text-align: $centered-aligns;
       font-size: 25px;
     }
+
+    .next-image-container img {
+        width: 100px;
+        height: 100px;}
   }
   
  
@@ -339,6 +343,12 @@ h3{
     h1, h2{
         font-size: 15px;
     }
+
+    .next-image-container img {
+        width: 200px;
+        height: 200px;
+       transform: translate(100px,0);
+      }
   }
 
 
@@ -413,8 +423,15 @@ h3{
         h1, h2{
             font-size: 20px;
         }
+
+        .next-image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+          }
+        }
     }
-}
+
 
 
 
@@ -491,6 +508,12 @@ h3{
         h1, h2{
             font-size: 20px;
         }
+
+        .next-image-container img {
+            width: 500px;
+            height: 500px;
+            transform: translate(-100px,0);
+          }
     }
 }
 
