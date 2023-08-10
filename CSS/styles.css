@@ -9,6 +9,11 @@ header {
 header img {
   height: 200px;
   width: 20%;
+  transition: transform 0.3s;
+}
+
+header img:hover{
+  transform: scale(1.1);
 }
 
 .text-container {
@@ -75,6 +80,11 @@ a:hover {
   height: 300px;
   object-fit: cover;
   border: 2px solid black;
+  transition: transform 0.3s;
+}
+
+.image-grid img:hover{
+  transform: scale(1.1);
 }
 
 .image-description {
@@ -120,6 +130,11 @@ a:hover {
   height: 300px;
   object-fit: cover;
   border: 2px solid black;
+  transition: transform 0.3s;
+}
+
+.new-image-grid img:hover{
+  transform: scale(1.1);
 }
 
 footer {
